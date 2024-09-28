@@ -3,16 +3,25 @@
 ## Задача 0
 
 1.Убедитесь что у вас НЕ(!) установлен docker-compose, для этого получите следующую ошибку от команды docker-compose --version
+![image](https://github.com/user-attachments/assets/ac14ed0f-619e-4314-8a2b-c7c954bd93f2)
 
 В случае наличия установленного в системе docker-compose - удалите его.
 
 2. Убедитесь что у вас УСТАНОВЛЕН docker compose(без тире) версии не менее v2.24.X, для это выполните команду docker compose version
+![image](https://github.com/user-attachments/assets/5d1871f9-bb5a-414f-923d-b92c87a2ed9c)
 
 ## Задача 1
 
 1. Сделайте в своем github пространстве fork репозитория. Примечание: В связи с доработкой кода python приложения. Если вы уверены что задание выполнено вами верно, а код python приложения работает с ошибкой то используйте вместо main.py файл old_main.py(просто измените CMD)
+  ![image](https://github.com/user-attachments/assets/948d354e-0b68-40d4-bd03-effa1be9f274)
+ ![image](https://github.com/user-attachments/assets/ba4ac25f-472c-45cf-9685-eabbe14a868b)
+https://github.com/Nightnek/shvirtd-example-python
+
 2. Создайте файл с именем Dockerfile.python для сборки данного проекта(для 3 задания изучите https://docs.docker.com/compose/compose-file/build/ ). Используйте базовый образ python:3.9-slim. Обязательно используйте конструкцию COPY . . в Dockerfile. Не забудьте исключить ненужные в имадже файлы с помощью dockerignore. Протестируйте корректность сборки.
+   ![image](https://github.com/user-attachments/assets/44334819-4bc8-4de7-8b9a-58fb03b4d895)
+
 3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker в venv. (Mysql БД можно запустить в docker run).
+   
 4. (Необязательная часть, *) По образцу предоставленного python кода внесите в него исправление для управления названием используемой таблицы через ENV переменную.
 
 ## Задача 2 (*)
