@@ -21,16 +21,24 @@ https://github.com/Nightnek/shvirtd-example-python
    ![image](https://github.com/user-attachments/assets/44334819-4bc8-4de7-8b9a-58fb03b4d895)
 
 3. (Необязательная часть, *) Изучите инструкцию в проекте и запустите web-приложение без использования docker в venv. (Mysql БД можно запустить в docker run).
-   
+   ![image](https://github.com/user-attachments/assets/bc2f9cf1-3dd1-49ca-88b1-3c8889e303eb)
+
 4. (Необязательная часть, *) По образцу предоставленного python кода внесите в него исправление для управления названием используемой таблицы через ENV переменную.
+![image](https://github.com/user-attachments/assets/1b13fc4c-d07f-4c7c-86f9-9d91a7c9ee0d)
+![image](https://github.com/user-attachments/assets/9c03a004-2699-438f-a3ed-051e1397bc04)
+![image](https://github.com/user-attachments/assets/940da2e5-6e61-4b32-97b7-50675392626b)
 
 ## Задача 2 (*)
 
 1. Создайте в yandex cloud container registry с именем "test" с помощью "yc tool" . Инструкция
 2. Настройте аутентификацию вашего локального docker в yandex container registry.
 3. Соберите и залейте в него образ с python приложением из задания №1.
+   ![image](https://github.com/user-attachments/assets/0af00885-6f1f-4cad-aa07-8aa1c9006cc1)
+
 4. Просканируйте образ на уязвимости.
 5. В качестве ответа приложите отчет сканирования.
+   ![image](https://github.com/user-attachments/assets/49bbc3eb-9e61-480e-ab1b-cf0bbfe9c4a4)
+
 
 ## Задача 3
 1. Изучите файл "proxy.yaml"
